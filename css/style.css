@@ -1,2 +1,7 @@
 /* CSS Document */
-
+:root{
+    --bg-body: #000;
+}
+body{
+    background: var(--bg-body);
+}
