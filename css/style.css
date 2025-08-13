@@ -1,6 +1,6 @@
 /* CSS Document */
 :root{
-    --bg-body: #000;
+    --bg-body: #f6f8fa;
 }
 body{
     background: var(--bg-body);
