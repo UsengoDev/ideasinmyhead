@@ -114,8 +114,9 @@ body{
 
 @media (max-width: 575.98px) {
     .idea_card{
-        min-width:100vw;
-        max-width:unset;
+        min-width: 96vw;
+        max-width: 96vw;
+        margin: 8px 2vw;
     }
     .alpha_container{
         
