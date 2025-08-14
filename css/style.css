@@ -10,7 +10,7 @@
     
     
     --text-idea-card:#878787;
-    --text-header-:#c1b2a2;
+    --text-header:#c1b2a2;
     --text-idea-tag: #9d8663;
 }
 html.dark-mode{
@@ -46,6 +46,7 @@ body{
     font-weight: 700;
     font-size: 35px;
     font-style: italic;
+    color: var(--text-header);
 }
 .alpha_container{
     position:relative;
