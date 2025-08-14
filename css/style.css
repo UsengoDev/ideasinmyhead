@@ -79,6 +79,9 @@ body{
     font-weight: 700;
     font-size: 24px;
 }
+.card_dea_tags_container{
+    padding: 8px 0px;
+}
 .idea_tag{
     position: relative;
     display: inline-block;
@@ -87,4 +90,5 @@ body{
     width: auto;
     padding: 4px 8px;
     border-radius: 4px;
+    font-size: 14px;
 }
