@@ -23,6 +23,9 @@ body{
     position:relative;
     display:flex;
 }
+.alpha_sub_container{
+    width:80vw;
+}
 .idea_card{
     min-width:200px;
     min-height:200px;
