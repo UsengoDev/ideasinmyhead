@@ -7,6 +7,12 @@
     
     --text-idea-card:#878787;
 }
+html.dark-mode{
+    --bg-body: #03040a;
+    --bg-idea-card: #131316;
+    --border-idea-card: #1a1c1e;
+    --text-idea-card: #878787;
+}
 * {
 	margin: 0;
 	padding: 0;
