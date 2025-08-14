@@ -53,7 +53,7 @@ body{
     width: 80vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .idea_card{
     min-width: 200px;
@@ -71,4 +71,8 @@ body{
 }
 .idea_card:hover{
     cursor:pointer;
+}
+.card_idea_title{
+    font-weight: 700;
+    font-size: 24px;
 }
