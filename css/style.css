@@ -28,7 +28,11 @@ body{
     align-items: center;
 }
 .alpha_sub_container{
-    width:80vw;
+    position: relative;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .idea_card{
     min-width:200px;
