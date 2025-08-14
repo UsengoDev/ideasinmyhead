@@ -2,11 +2,14 @@
 :root{
     --bg-body: #f1e6da;
     --bg-idea-card:#f9f2e6;
+    --bg-idea-tag:#e3d9c6;
     
     --border-idea-card: #eddcc7;
     
+    
     --text-idea-card:#878787;
     --text-header-:#c1b2a2;
+    --text-idea-tag: #9d8663;
 }
 html.dark-mode{
     --bg-body: #03040a;
@@ -75,4 +78,13 @@ body{
 .card_idea_title{
     font-weight: 700;
     font-size: 24px;
+}
+.idea_tag{
+    position: relative;
+    display: inline-block;
+    background: var(--bg-idea-tag);
+    color: var(--text-idea-tag);
+    width: auto;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
