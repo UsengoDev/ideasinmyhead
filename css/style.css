@@ -111,3 +111,10 @@ body{
     align-items: center;
     color: var(--text-footer);
 }
+
+@media (max-width: 575.98px) {
+    .idea_card{
+        min-width:100vw;
+        max-width:unset;
+    }
+}
