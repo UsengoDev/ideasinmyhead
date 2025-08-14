@@ -56,13 +56,15 @@ body{
     align-items: center;
 }
 .idea_card{
-    min-width:200px;
-    min-height:200px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
     border: 1px solid var(--border-idea-card);
     background: var(--bg-idea-card);
     color: var(--text-idea-card);
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     margin: 12px;
     padding: 12px;
     border-radius: 8px;
