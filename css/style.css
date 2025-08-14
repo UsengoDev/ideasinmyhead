@@ -6,6 +6,7 @@
     --border-idea-card: #eddcc7;
     
     --text-idea-card:#878787;
+    --text-header-:#c1b2a2;
 }
 html.dark-mode{
     --bg-body: #03040a;
@@ -37,6 +38,9 @@ body{
     display:flex;
     justify-content: center;
     align-items:center;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
 }
 .alpha_container{
     position:relative;
