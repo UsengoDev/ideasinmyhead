@@ -27,7 +27,6 @@ body{
 }
 .header_sub_container{
     min-height:50px;
-    max-width:80vw;
     position:relative;
     display:flex;
     justify-content: center;
