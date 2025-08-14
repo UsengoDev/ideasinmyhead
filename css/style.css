@@ -3,7 +3,9 @@
     --bg-body: #f1e6da;
     --bg-idea-card:#f9f2e6;
     
-    --border-idea-card: #000;
+    --border-idea-card: #eddcc7;
+    
+    --text-idea-card:#878787;
 }
 * {
 	margin: 0;
@@ -20,7 +22,9 @@
 body{
     background: var(--bg-body);
 }
-
+.idea_card:hover{
+    cursor:pointer;
+}
 .alpha_container{
     position:relative;
     display:flex;
@@ -39,9 +43,13 @@ body{
     min-height:200px;
     border: 1px solid var(--border-idea-card);
     background: var(--bg-idea-card);
+    color: var(--text-idea-card);
     position:relative;
     display:flex;
     margin: 12px;
     padding: 12px;
     border-radius: 8px;
+}
+.idea_card:hover{
+    cursor:pointer;
 }
