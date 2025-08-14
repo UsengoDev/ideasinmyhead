@@ -1,6 +1,8 @@
 /* CSS Document */
 :root{
     --bg-body: #f1e6da;
+    --bg-idea-card:#f9f2e6;
+    
     --border-idea-card: #000;
 }
 * {
@@ -22,6 +24,8 @@ body{
 .alpha_container{
     position:relative;
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .alpha_sub_container{
     width:80vw;
@@ -30,6 +34,10 @@ body{
     min-width:200px;
     min-height:200px;
     border: 1px solid var(--border-idea-card);
+    background: var(--bg-idea-card);
     position:relative;
     display:flex;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 8px;
 }
