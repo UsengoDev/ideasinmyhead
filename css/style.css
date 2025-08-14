@@ -25,6 +25,14 @@ body{
 .idea_card:hover{
     cursor:pointer;
 }
+.header_sub_container{
+    min-height:50px;
+    max-width:80vw;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 .alpha_container{
     position:relative;
     display:flex;
