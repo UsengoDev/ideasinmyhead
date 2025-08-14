@@ -9,8 +9,11 @@
     --box-shadow-idea-card: inset 0px 0px 10px rgb(241 218 187 / 80%);
     
     
-    --text-idea-card:#878787;
+    /*--text-idea-card:#878787;
+    --text-idea-card: #9d8466;*/
+    --text-idea-card: #977f62;
     --text-header:#c1b2a2;
+    --text-header: #cdbaa8;
     --text-idea-tag: #9d8663;
 }
 html.dark-mode{
