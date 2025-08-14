@@ -117,4 +117,11 @@ body{
         min-width:100vw;
         max-width:unset;
     }
+    .alpha_container{
+        
+    }
+    .alpha_sub_container{
+        flex-direction: column;
+        width:100%;
+    }
 }
