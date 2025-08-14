@@ -15,6 +15,8 @@
     --text-header:#c1b2a2;
     --text-header: #cdbaa8;
     --text-idea-tag: #9d8663;
+    --text-footer: #ad742c;
+    
 }
 html.dark-mode{
     --bg-body: #03040a;
@@ -101,4 +103,11 @@ body{
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 14px;
+}
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-footer);
 }
