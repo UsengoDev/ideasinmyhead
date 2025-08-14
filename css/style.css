@@ -1,6 +1,7 @@
 /* CSS Document */
 :root{
     --bg-body: #f1e6da;
+    --border-idea-card: #000;
 }
 * {
 	margin: 0;
@@ -16,4 +17,16 @@
 
 body{
     background: var(--bg-body);
+}
+
+.alpha_container{
+    position:relative;
+    display:flex;
+}
+.idea_card{
+    min-width:200px;
+    min-height:200px;
+    border: 1px solid var(--border-idea-card);
+    position:relative;
+    display:flex;
 }
