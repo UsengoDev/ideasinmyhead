@@ -97,7 +97,7 @@ a:hover, .header_sub_container a{
     justify-content: center;
     align-items: flex-start;
 }
-.idea_card, .idea_page_idea_container{
+.idea_card, .idea_page_idea_container, .misc_container{
     min-width: 200px;
     max-width: 200px;
     min-height: 200px;
@@ -112,7 +112,7 @@ a:hover, .header_sub_container a{
     padding: 12px;
     border-radius: 8px;
 }
-.idea_page_idea_container{
+.idea_page_idea_container, .misc_container{
     max-width:800px;
     text-align:left;
 }
