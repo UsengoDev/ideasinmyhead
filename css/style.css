@@ -43,7 +43,7 @@ body{
 a{
     text-decoration: none;
 }
-a:hover{
+a:hover, .header_sub_container a{
     text-decoration: underline;
 	text-decoration-color: var(--text-footer); /* sets underline color */
 }
@@ -59,6 +59,10 @@ a:hover{
     font-weight: 700;
     font-size: 35px;
     font-style: italic;
+    color: var(--text-header);
+}
+.header_sub_container a{
+    text-decoration:none;
     color: var(--text-header);
 }
 .alpha_container{
