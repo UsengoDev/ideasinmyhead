@@ -144,7 +144,9 @@ a:hover, .header_sub_container a{
     font-weight: 700;
 }
 .idea_page_idea_content{
-    font-size: 17px;
+    /*font-size: 17px;*/
+    font-size: 18px;
+    line-height: 1.5rem;
 }
 .footer{
     position: relative;
