@@ -146,6 +146,13 @@ a:hover, .header_sub_container a{
     align-items: center;
     color: var(--text-footer);
 }
+.footer_sub_container{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
 
 @media (max-width: 575.98px) {
     .idea_card{
