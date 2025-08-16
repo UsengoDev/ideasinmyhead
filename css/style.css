@@ -54,7 +54,7 @@ a:hover, .header_sub_container a{
     min-height:50px;
     position:relative;
     display:flex;
-    flex-direciton:column;
+    flex-direction:column;
     justify-content: center;
     align-items:center;
     font-weight: 700;
@@ -65,6 +65,10 @@ a:hover, .header_sub_container a{
 .header_sub_container a{
     text-decoration:none;
     color: var(--text-header);
+}
+.header_nav_links{
+    font-size: 17px;
+    color: var(--text-footer);
 }
 .alpha_container{
     position:relative;
