@@ -76,7 +76,7 @@ a:hover{
     justify-content: center;
     align-items: flex-start;
 }
-.idea_card{
+.idea_card, .idea_page_idea_container{
     min-width: 200px;
     max-width: 200px;
     min-height: 200px;
@@ -90,6 +90,10 @@ a:hover{
     margin: 12px;
     padding: 12px;
     border-radius: 8px;
+}
+.idea_page_idea_container{
+    max-width:800px;
+    text-align:left;
 }
 .idea_card:hover{
     cursor:pointer;
