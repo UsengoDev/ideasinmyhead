@@ -40,6 +40,13 @@ html.dark-mode{
 body{
     background: var(--bg-body);
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+	text-decoration-color: var(--text-footer); /* sets underline color */
+}
 .idea_card:hover{
     cursor:pointer;
 }
