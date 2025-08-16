@@ -54,6 +54,7 @@ a:hover, .header_sub_container a{
     min-height:50px;
     position:relative;
     display:flex;
+    flex-direciton:column;
     justify-content: center;
     align-items:center;
     font-weight: 700;
