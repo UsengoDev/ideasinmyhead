@@ -43,7 +43,7 @@ body{
 a{
     text-decoration: none;
 }
-a:hover, .header_sub_container a{
+a:hover, .header_sub_container a, .footer a{
     text-decoration: underline;
 	text-decoration-color: var(--text-footer); /* sets underline color */
 }
@@ -168,6 +168,9 @@ a:hover, .header_sub_container a{
     display: flex;
     flex-direction: row;
     gap: 15px;
+}
+.misc_container{
+    font-size: 18px;
 }
 @media (max-width: 575.98px) {
     .idea_card{
