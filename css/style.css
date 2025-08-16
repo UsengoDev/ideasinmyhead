@@ -153,7 +153,12 @@ a:hover, .header_sub_container a{
     justify-content: center;
     align-items:center;
 }
-
+.footer_links{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 @media (max-width: 575.98px) {
     .idea_card{
         min-width: 96vw;
