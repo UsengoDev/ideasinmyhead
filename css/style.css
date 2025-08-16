@@ -153,6 +153,7 @@ a:hover, .header_sub_container a{
     align-items: center;
     color: var(--text-footer);
     margin-top: 20px;
+    padding: 0px 0px 26px;
 }
 .footer_sub_container{
     position:relative;
