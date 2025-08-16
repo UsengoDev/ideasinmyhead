@@ -70,6 +70,9 @@ a:hover, .header_sub_container a{
     font-size: 17px;
     color: var(--text-footer);
 }
+.header_nav_links a{
+    color: var(--text-footer);
+}
 .alpha_container{
     position:relative;
     display:flex;
