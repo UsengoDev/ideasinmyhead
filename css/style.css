@@ -57,14 +57,16 @@ a:hover, .header_sub_container a{
     flex-direction:column;
     justify-content: center;
     align-items:center;
-    font-weight: 700;
-    font-size: 35px;
-    font-style: italic;
     color: var(--text-header);
 }
 .header_sub_container a{
     text-decoration:none;
     color: var(--text-header);
+}
+.logo{
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
 }
 .header_nav_links{
     font-size: 17px;
