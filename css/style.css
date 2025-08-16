@@ -66,6 +66,8 @@ a:hover{
     display:flex;
     justify-content: center;
     align-items: center;
+    color: var(--text-idea-card);
+    flex-direction: column;
 }
 .alpha_sub_container{
     position: relative;
@@ -111,6 +113,13 @@ a:hover{
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 14px;
+}
+.idea_page_idea_title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.idea_page_idea_content{
+    font-size: 17px;
 }
 .footer{
     position: relative;
