@@ -43,7 +43,7 @@ body{
 a{
     text-decoration: none;
 }
-a:hover, .header_sub_container a, .footer a, .footer_link a{
+a:hover, .header_sub_container a{
     text-decoration: underline;
 	text-decoration-color: var(--text-footer); /* sets underline color */
 }
@@ -171,6 +171,9 @@ a:hover, .header_sub_container a, .footer a, .footer_link a{
 }
 .misc_container{
     font-size: 18px;
+}
+.footer a, .footer_link a{
+    color: var(--text-footer);
 }
 @media (max-width: 575.98px) {
     .idea_card{
