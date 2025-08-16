@@ -15,7 +15,8 @@
     --text-header:#c1b2a2;
     --text-header: #cdbaa8;
     --text-idea-tag: #9d8663;
-    --text-footer: #ad742c;
+    /*--text-footer: #ad742c;*/
+    --text-footer: #dfb581;
     
 }
 html.dark-mode{
