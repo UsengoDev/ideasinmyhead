@@ -47,6 +47,13 @@ a:hover, .header_sub_container a{
     text-decoration: underline;
 	text-decoration-color: var(--text-footer); /* sets underline color */
 }
+.alpha_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
 .idea_card:hover{
     cursor:pointer;
 }
