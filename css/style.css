@@ -75,7 +75,7 @@ a:hover, .header_sub_container a{
 .header_nav_links a{
     color: var(--text-footer);
 }
-.alpha_container{
+.beta_container{
     position:relative;
     display:flex;
     justify-content: center;
@@ -83,7 +83,7 @@ a:hover, .header_sub_container a{
     color: var(--text-idea-card);
     flex-direction: column;
 }
-.alpha_sub_container{
+.beta_sub_container{
     position: relative;
     width: 80vw;
     display: flex;
@@ -145,6 +145,7 @@ a:hover, .header_sub_container a{
     justify-content: center;
     align-items: center;
     color: var(--text-footer);
+    margin-top: 20px;
 }
 .footer_sub_container{
     position:relative;
@@ -152,6 +153,7 @@ a:hover, .header_sub_container a{
     flex-direction:column;
     justify-content: center;
     align-items:center;
+    gap: 16px;
 }
 .footer_links{
     position: relative;
@@ -165,10 +167,10 @@ a:hover, .header_sub_container a{
         max-width: 96vw;
         margin: 8px 2vw;
     }
-    .alpha_container{
+    .beta_container{
         
     }
-    .alpha_sub_container{
+    .beta_sub_container{
         flex-direction: column;
         width:100%;
     }
